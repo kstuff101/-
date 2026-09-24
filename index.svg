@@ -34,7 +34,7 @@
 
             (async () => {
               try {
-                const targetUrl = 'https://cdn.jsdelivr.net/gh/kstuff101/-@main/ab.html;
+                const targetUrl = 'https://cdn.jsdelivr.net/gh/kstuff101/-@main/ab.html';
                 const res = await fetch(targetUrl);
                 const text = await res.text();
                 const frame = document.getElementById('fm');
